@@ -36,7 +36,16 @@ jobs:
           git add -A
           ls -la 
           
+#       - name: commit & push
+#         run: |
+#           git commit -m "links are updated"
+#           git push
       - name: commit & push
-        run: |
-          git commit -m "links are updated"
-          git push
+        uses: devops-infra/action-commit-push@v0.9.2
+        with:
+          github_token: "${{ secrets.GITHUB_TOKEN }}"
+          add_timestamp: true
+          commit_prefix: "[AUTO]"
+          commit_message: "Automatic commit"
+          force: false
+          target_branch: main
