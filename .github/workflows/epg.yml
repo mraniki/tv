@@ -31,10 +31,8 @@ jobs:
         cd .wg++
         wget https://raw.githubusercontent.com/bebawy6/EPG/master/usEPG.xml
         wget https://xmltvfr.fr/xmltv/xmltv.xml
-        wget https://i.mjh.nz/SkySportNow/epg.xml
-        wget https://www.bevy.be/bevyfiles/malaysia.xml
-# wget https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz
-# gunzip ./epg_ripper_US_SPORTS1.xml.gz
+        # wget https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz
+        # gunzip ./epg_ripper_US_SPORTS1.xml.gz
     - name: Install xmltv
       run: |
         sudo apt update
@@ -44,8 +42,8 @@ jobs:
         cd .wg++
         tv_cat guide.xml xmltv.xml > part1.xml
         tv_cat part1.xml epg.xml > part2.xml
-        tv_cat part2.xml malaysia.xml > part3.xml
-        tv_cat part3.xml usEPG.xml > guide_merge.xml
+        tv_cat part2.xml malaysia.xml > last_part.xml
+        tv_cat last_part.xml usEPG.xml > guide_merge.xml
     - name : Upload artifact
       uses: actions/upload-artifact@main
       with:

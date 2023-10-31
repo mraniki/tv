@@ -22,29 +22,28 @@ jobs:
 
     - name: Update
       run: |
-        # 央视源
-        rm -f CCTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CCTV.m3u
-        sed -i -n '/央视频道/,+1p' CCTV.m3u
-        sed -i '1i #EXTM3U' CCTV.m3u
-        sed -i '/^\s*$/d' CCTV.m3u
+        # EURONEWS
+        rm -f EURONews.m3u && wget https://raw.githubusercontent.com/iptv-org/iptv/885303ae653bdafdea5819d9822a7f41bff562c4/streams/fr_euronews.m3u -O EURONews.m3u
+        sed -i -n '/Euronews English/,/^$/p' EURONews.m3u
+        sed -i '1i #EXTM3U' EURONews.m3u
+        sed -i '/^\s*$/d' EURONews.m3u
 
-        # 卫视源
-        rm -f CNTV.m3u && touch CNTV.m3u
-        wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV1.m3u && sed -i -n '/卫视频道/,+1p' CNTV1.m3u
-        cat CNTV1.m3u >> CNTV.m3u
-        rm -f CNTV1.m3u
-        sed -i '1i #EXTM3U' CNTV.m3u
-        sed -i '/^\s*$/d' CNTV.m3u
+        # FR
+        rm -f FR.m3u && touch FR.m3u
+        wget https://raw.githubusercontent.com/iptv-org/iptv/885303ae653bdafdea5819d9822a7f41bff562c4/streams/fr.m3u -O FR.m3u
+        sed -i -n '/France 2/,+1p' FR.m3u
+        sed -i '1i #EXTM3U' FR.m3u
+        sed -i '/^\s*$/d' FR.m3u
 
-        # 整合源
+        # COMBINED
         rm -f IPTV.m3u && touch IPTV.m3u
-        cat CCTV.m3u >> IPTV.m3u
-        cat CNTV.m3u >> IPTV.m3u
+        cat EURONews.m3u >> IPTV.m3u
+        cat FR.m3u >> IPTV.m3u
         sed -i '/#EXTM3U/d' IPTV.m3u
         sed -i '1i #EXTM3U' IPTV.m3u
         sed -i '/^\s*$/d' IPTV.m3u
 
-        # 节目源
+        # EPG
         # rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml
         echo "Auto Update IPTV in ${{ steps.date.outputs.date }}" > README.md
 
