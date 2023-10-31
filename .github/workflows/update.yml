@@ -1,4 +1,4 @@
-name: Update
+name: Update M3U
 
 on:
   watch:
@@ -45,7 +45,7 @@ jobs:
         sed -i '/^\s*$/d' IPTV.m3u
 
         # 节目源
-        rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml
+        # rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml
         echo "Auto Update IPTV in ${{ steps.date.outputs.date }}" > README.md
 
     - name: Clean
