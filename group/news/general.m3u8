@@ -1,0 +1,8 @@
+#EXTINF:0 tvg-chno="100" tvg-name="Reuters" tvg-ID="reuterstv.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/reuters.png" group-title="📰 NEWS",Reuters
+https://i.mjh.nz/Plex/5e20b730f2f8d5003d739db7-5eea71d65252710041e0ccbc.m3u8
+#EXTINF:0  tvg-chno="101" tvg-name="CNA" tvg-ID="channelnewsasia.sg"  tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/sg/cna.png" group-title="📰 NEWS",Channel News Asia
+https://d2ko4czujk9652.cloudfront.net/hls/clr4ctv_cnas/master.m3u8
+#EXTINF:0 tvg-chno="102" tvg-name="Al Jazeera" tvg-ID="aljazeera.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/qa/aljazeera.png" group-title="📰 NEWS",Al Jazeera
+https://live-hls-v3-aje.getaj.net/AJE-V3/index.m3u8
+#EXTINF:0 tvg-chno="103" tvg-name="Euronews" tvg-ID="euronews.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/euronews.png" group-title="📰 NEWS",Euronews
+https://i.mjh.nz/PlutoTV/60492dcf1c9b6a00089f41df-alt.m3u8

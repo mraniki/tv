@@ -1,0 +1,6 @@
+#EXTINF:0, >>> UK Sports Streams
+https://raw.githubusercontent.com/mraniki/tv/main/group/sport/uk.m3u8
+#EXTINF:0, >>> International Sports Streams
+https://raw.githubusercontent.com/mraniki/tv/main/group/sport/international.m3u8
+#EXTINF:0, >>> US Sports Streams
+https://raw.githubusercontent.com/mraniki/tv/main/group/sports/us.m3u8

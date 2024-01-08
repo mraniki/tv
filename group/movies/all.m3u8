@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:0 tvg-chno="51" tvg-name="HBO" tvg-id="hbo.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/hbo.png" group-title="MOVIES",HBO
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="52" tvg-name="SKY CINEMA PREMIERE" tvg-id="skycinemapremiere.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/skycinemapremiere.png" group-title="MOVIES",SKY CINEMA PREMIERE
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8

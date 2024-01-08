@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:0 tvg-chno="43" tvg-name="ABC" tvg-id="wabc.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/abc7.png" group-title="🇺🇸",ABC
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="44" tvg-name="NBC" tvg-id="wnbc.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/nbc.png" group-title="🇺🇸",NBC
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="45" tvg-name="FOX" tvg-id="wnyw.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/fox.png" group-title="🇺🇸",FOX
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="46" tvg-name="CBS" tvg-id="wcbs.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/cbs.png" group-title="🇺🇸",CBS
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="47" tvg-name="USA" tvg-id="usanetwork.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/usanetwork.png" group-title="🇺🇸",USA
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="48" tvg-name="TNT" tvg-id="tnt.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/tnt.png" group-title="🇺🇸 US",TNT
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="49" tvg-name="TBS" tvg-id="tbs.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/tbs.png" group-title="🇺🇸",TBS
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="104" tvg-name="CNN" tvg-ID="cnn.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/cnn.png"  group-title="🇺🇸",CNN
+https://i.mjh.nz/PlutoTV/5421f71da6af422839419cb3-alt.m3u8

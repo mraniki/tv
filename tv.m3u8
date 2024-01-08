@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:0, >>> News Streams
+https://raw.githubusercontent.com/mraniki/tv/main/group/news/general.m3u8
+#EXTINF:0, >>> Sports Streams
+https://raw.githubusercontent.com/mraniki/tv/main/group/news/business.m3u8

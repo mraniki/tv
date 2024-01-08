@@ -1,0 +1,25 @@
+#EXTM3U
+#EXTINF:0 tvg-chno="1100" tvg-name="Sky Sport Main Event" tvg-id="skysportsmainevent.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/skysportsmainevent.png" group-title="⚽️ SPORTS",Sky Sport Main Event HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1101" tvg-name="TNT Sports 1" tvg-id="tntsports1.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/tntsports1.png" group-title="⚽️ SPORTS",TNT Sports 1 HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1102" tvg-name="TNT Sports 2" tvg-id="tntsports2.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/tntsports2.png" group-title="⚽️ SPORTS",TNT Sports 2 HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1103" tvg-name="TNT Sports 3" tvg-id="tntsports3.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/tntsports3.png" group-title="⚽️ SPORTS",TNT Sports 3 HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0  tvg-chno="1104" tvg-name="TNT Sports 4" tvg-id="tntsports4.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/tntsports4.png" group-title="⚽️ SPORTS",TNT Sports 4 HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0  tvg-chno="1105" tvg-name="Sky Sport F1" tvg-id="skysportsf1.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/skysportsf1.png" group-title="⚽️ SPORTS",Sky Sport F1
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0  tvg-chno="1106" tvg-name="Sky Sports Mix" tvg-id="skysportsmix.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/skysportsmix.png" group-title="⚽️ SPORTS",Sky Sports Mix HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1107" tvg-name="Sky Sports Arena" tvg-id="skysportsarena.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/skysportsarena.png" group-title="⚽️ SPORTS",Sky Sports Arena HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0  tvg-chno="1108" tvg-name="Sky Sports Action" tvg-id="skysportsaction.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/skysportsaction.png" group-title="⚽️ SPORTS",Sky Sports Action HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1109" tvg-name="Sky Sports Football" tvg-id="skysportsfootball.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/skysportsfootball.png" group-title="⚽️ SPORTS",Sky Sports Football HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0  tvg-chno="1110" tvg-name="Sky Sports Premier League" tvg-id="skysportpremierleague.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/skysportspremierleague.png" group-title="⚽️ SPORTS",Sky Sports Premier League HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1111" tvg-name="Viaplay Sports 1" tvg-id="viaplaysports1.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/viaplaysports1.png" group-title="⚽️ SPORTS",Viaplay Sports 1
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
