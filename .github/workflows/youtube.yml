@@ -1,0 +1,61 @@
+# name: Update M3U
+
+# on:
+#   workflow_dispatch:
+#   schedule:
+#   - cron: "0 23 * * *"
+
+
+# jobs:
+#   Update:
+#     name: 📺 m3u update
+#     runs-on: ubuntu-latest
+#     permissions:
+#       id-token: write
+#       contents: write
+
+#     steps:
+#     - name: 📥 Checkout the repository
+#       uses: actions/checkout@v4
+#       with:
+#         fetch-depth: 0
+
+#     - name: 🕓 GetTime
+#       id: date
+#       run: |
+#         echo "DATE=$(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
+        
+
+#     - name: 🔮 Get a random quote
+#       id: quote
+#       run: |
+#         sudo apt-get -y install fortune-mod
+#         TITLE=$(fortune -s | tr -d '[:punct:]' | tr -d '[:digit:]' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' | head -n 1)
+
+#         # Limit the TITLE to 256 characters
+#         TITLE=${TITLE:0:256}
+#         echo "TITLE=$TITLE" >> $GITHUB_OUTPUT
+
+#     - name: youtube-dl
+#       run: |
+#         curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+#         chmod a+rx /usr/local/bin/youtube-dl
+#         echo "#EXTM3U" > yt-list.m3u
+#         echo "" >> yt-list.m3u
+#         youtube-dl -U --no-warnings --skip-download -i --playlist-end 5 --playlist-random --sleep-interval 30
+
+
+#     - name: 🪪 Identify
+#       run: |
+#         git config --global user.email "action@github.com"
+#         git config --global user.name "${GITHUB_ACTOR}"
+
+
+#     - name: Clean
+#       run: |
+#         git checkout --orphan latest_branch
+#         git add -A
+#         git commit -am "${{ steps.date.outputs.DATE }} - ${{ steps.quote.outputs.TITLE }}"
+#         git branch -D main
+#         git branch -m main
+#         git push -f origin main

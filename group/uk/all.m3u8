@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:0 tvg-chno="201" tvg-name="BBC One" tvg-ID="bbcone.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/bbcone.png" group-title="🇬🇧",BBC One
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="202" tvg-name="BBC Two" tvg-ID="bbctwo.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/bbctwo.png" group-title="🇬🇧",BBC Two
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="203" tvg-name="Channel 4" tvg-ID="channel4.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/channel4.png" group-title="🇬🇧",Channel 4
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="204" tvg-name="Channel 5" tvg-ID="channel5.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/channel5.png" group-title="🇬🇧",Channel 5
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="205" tvg-name="ITV" tvg-ID="itv.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/itv.png" group-title="🇬🇧",ITV
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="206" tvg-name="ITV2" tvg-ID="itv2.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/itv2.png" group-title="🇬🇧",ITV2
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="103" tvg-name="BBC News" tvg-ID="bbcnews.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/bbcnews.png" group-title="🇬🇧",BBC News
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8

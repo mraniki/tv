@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:0 tvg-chno="1" tvg-name="Bloomberg" tvg-ID="bloomberg.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/bloomberg.png" group-title="📰 NEWS",Bloomberg
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="2" tvg-name="Reuters" tvg-ID="reuterstv.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/reuters.png" group-title="📰 NEWS",Reuters
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="3" tvg-name="CNA HD" tvg-id="cna.sg" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/sg/cna.png" group-title="📰 NEWS",CNA HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="4" tvg-name="Al Jazeera" tvg-ID="aljazeera.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/qa/aljazeera.png" group-title="📰 NEWS",Al Jazeera
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="5" tvg-name="Euronews" tvg-ID="euronews.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/euronews.png" group-title="📰 NEWS",Euronews
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="302" tvg-name="France 2" tvg-ID="france2.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/france2.png" group-title=" 🇫🇷 FR ",France 2
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8

@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:0 tvg-chno="1112" tvg-name="SuperSport Premier League" tvg-id="supersportpremierleague.za" tvg-logo="https://logo.iptveditor.com/supersportpremierleague.png" group-title="⚽️ SPORTS",SuperSport Premier League
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1113" tvg-name="SKY Sport 1 NZ" tvg-id="skysport1.nz" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/nz/skysport1.png" group-title="⚽️ SPORTS",SKY Sport 1 NZ
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0  tvg-chno="1114" tvg-name="SKY Sport 2 NZ" tvg-id="skysport2.nz" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/nz/skysport2.png" group-title="⚽️ SPORTS",SKY Sport 2 NZ
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1115" tvg-name="SKY Sport 3 NZ" tvg-id="skysport3.nz" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/nz/skysport3.png" group-title="⚽️ SPORTS",SKY Sport 3 NZ
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1116" tvg-name="SKY Sport 4 NZ" tvg-id="skysport4.nz" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/nz/skysport4.png" group-title="⚽️ PORTS",SKY Sport 4 NZ
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0  tvg-chno="1117" tvg-name="Astro SuperSport 1" tvg-id="astrosupersport1.my" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/my/astrosupersport.png" group-title="⚽️ SPORTS",Astro SuperSport 1
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0  tvg-chno="1118" tvg-name="Astro SuperSport 2" tvg-id="astrosupersport2.my" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/my/astrosupersport2.png" group-title="⚽️ SPORTS",Astro SuperSport 2
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8

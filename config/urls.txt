@@ -1,0 +1,4 @@
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
+https://i.mjh.nz/SamsungTVPlus/us.m3u8
+https://i.mjh.nz/Plex/us.m3u8
+https://list.iptvcat.com/my_list/s/3b4035e829b4eb0e3207b6fc50899a9e.m3u8

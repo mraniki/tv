@@ -1,0 +1,19 @@
+#EXTM3U
+#EXTINF:0 tvg-chno="301" tvg-name="TF1" tvg-ID="tf1.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/tf1.png" group-title=" 🇫🇷 FR ",TF1
+http://livetv.ktv.zone/3/play.m3u8
+#EXTINF:0 tvg-chno="302" tvg-name="France2" tvg-ID="france2.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/france2.png" group-title=" 🇫🇷 FR ",France 2
+http://livetv.ktv.zone/104/play.m3u8
+#EXTINF:0 tvg-chno="303" tvg-name="France 3" tvg-ID="france3.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/france3.png" group-title=" 🇫🇷 FR ",France 3
+http://livetv.ktv.zone/105/play.m3u8
+#EXTINF:0 tvg-chno="304" tvg-name="France 4" tvg-ID="france4.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/france4.png" group-title=" 🇫🇷 FR ",France 4
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="305" tvg-name="France 5" tvg-ID="france5.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/france5.png" group-title=" 🇫🇷 FR ",France 5
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="306" tvg-name="M6" tvg-ID="m6.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/m6.png" group-title=" 🇫🇷 FR ",M6
+https://shls-m6-france-prod-dub.shahid.net/out/v1/c8a9f6e000cd4ebaa4d2fc7d18c15988/index.m3u8
+#EXTINF:0 tvg-chno="307" tvg-name="CANAL+" tvg-ID="canalplus.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/canalplus.png" group-title=" 🇫🇷 FR ",CANAL+
+http://hls-m007.live-lv3.canalplus-cdn.net/live/disk/canalplusclair-hd/hls-ios-fhd-clair/canalplusclair-hd.m3u8
+#EXTINF:0 tvg-chno="308" tvg-name="PARIS PREMIERE" tvg-ID="parispremiere.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/parispremiere.png" group-title=" 🇫🇷 FR ",PARIS PREMIERE
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="309" tvg-name="France Info" tvg-ID="franceinfo" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/franceinfo.png" group-title=" 🇫🇷 FR ",France Info
+https://raw.githubusercontent.com/Sphinxroot/HSL/main/DM/fr/FranceInfo.m3u8

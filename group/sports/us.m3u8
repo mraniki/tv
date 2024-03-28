@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:0 tvg-chno="1200" tvg-name="ESPN HD" tvg-id="espn.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/espn.png" group-title="SPORTS",ESPN HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1201" tvg-name="ESPN 2 HD" tvg-id="espn2.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/espn2.png" group-title="SPORTS",ESPN 2 HD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1201" tvg-name="TSN 1" tvg-id="tsn1.ca" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/ca/tsn.png" group-title="SPORTS",TSN 1
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1202" tvg-name="SPORTSNET WORLD" tvg-id="sportsnetworld.ca" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/ca/sportsnetworld.png" group-title="SPORTS",SPORTSNET WORLD
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1203" tvg-name="MSG" tvg-id="madisonsquaregarden.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/msg.png" group-title="SPORTS",MSG
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="1204" tvg-name="NFL RedZone" tvg-id="nflredzone.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/nflredzone.png" group-title="SPORTS",NFL RedZone
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
