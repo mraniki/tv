@@ -1,0 +1,51 @@
+#EXTM3U
+#EXTINF:0 tvg-chno="840001" tvg-name="Bloomberg" tvg-ID="bloomberg.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/bloomberg.png" group-title="📰 NEWS",Bloomberg
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="826000" tvg-name="Reuters" tvg-ID="reuterstv.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/reuters.png" group-title="📰 NEWS",Reuters
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0  tvg-chno="702003" tvg-name="CNA International" tvg-ID="cna.sg"  tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/sg/cna.png" group-title="📰 NEWS",Channel News Asia
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="634001" tvg-name="Al Jazeera" tvg-ID="aljazeera.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/qa/aljazeera.png" group-title="📰 NEWS",Al Jazeera
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="056001" tvg-name="Euronews" tvg-ID="euronews.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/euronews.png" group-title="📰 NEWS",Euronews
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="840006" tvg-name="CNN" tvg-ID="cnn.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/cnn.png"  group-title="📰 NEWS ",CNN
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="840007" tvg-name="CNBC" tvg-ID="cnbc.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/cnbc.png"  group-title="📰 NEWS ",CNBC
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="840008" tvg-name="FOXNEWS" tvg-ID="foxnews.us" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/foxnews.png"  group-title="📰 NEWS ",CNN
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="826001" tvg-name="BBC One" tvg-ID="bbc1.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/bbcone.png" group-title="🇬🇧 UK",BBC One
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="826002" tvg-name="BBC Two" tvg-ID="bbctwo.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/bbctwo.png" group-title="🇬🇧 UK",BBC Two
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="826003" tvg-name="Channel 4" tvg-ID="channel4.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/channel4.png" group-title="🇬🇧 UK",Channel 4
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="826004" tvg-name="Channel 5" tvg-ID="channel5.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/channel5.png" group-title="🇬🇧 UK",Channel 5
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="826005" tvg-name="ITV" tvg-ID="itv.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/itv.png" group-title="🇬🇧 UK",ITV
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="826006" tvg-name="ITV2" tvg-ID="itv2.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/itv2.png" group-title="🇬🇧 UK",ITV2
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="826010" tvg-name="BBC News" tvg-ID="bbcnews.uk" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/uk/bbcnews.png" group-title="🇬🇧 UK",ITV2
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="250001" tvg-name="TF1" tvg-ID="tf1.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/tf1.png" group-title=" 🇫🇷 FR ",TF1
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="250002" tvg-name="France2" tvg-ID="france2.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/france2.png" group-title=" 🇫🇷 FR ",France 2
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0  tvg-chno="250003" tvg-name="France3" tvg-ID="france3.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/france3.png" group-title=" 🇫🇷 FR ",France 3
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="250004" tvg-name="France4" tvg-ID="france4.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/france4.png" group-title=" 🇫🇷 FR ",France 4
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="250005" tvg-name="France5" tvg-ID="france5.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/france5.png" group-title=" 🇫🇷 FR ",France 5
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="250006" tvg-name="M6" tvg-ID="m6.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/m6.png" group-title=" 🇫🇷 FR ",M6
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="250007" tvg-name="CANAL+" tvg-ID="canal.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/canalplus.png" group-title=" 🇫🇷 FR ",CANAL+
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="250008" tvg-name="PARIS PREMIERE" tvg-ID="parispremiere.fr" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/fr/parispremiere.png" group-title=" 🇫🇷 FR ",PARIS PREMIERE
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="276001" tvg-name="Das Erste" tvg-ID="daserste.de" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/de/daserste.png" group-title=" 🇩🇪 DE ",Das Erste
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:0 tvg-chno="000001" tvg-name="NightWave Plaza" radio="true" tvg-ID="plaza.one" tvg-logo="http://pa1.narvii.com/6389/4bcee8daec7d0300c37f22e929e8a245e51772b0_00.gif" group-title=" 📻 Radio ",NightWave Plaza
+http://radio.plaza.one/mp3 
