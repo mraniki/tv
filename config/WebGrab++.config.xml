@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files.zip -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <!--<decryptkey site="site-name">decrypt_userkey</decryptkey>-->
+  <!--<license wg-username="your webgrab+plus username" registered-email="your registered email address" password="your license password" />-->
+  
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>0</timespan>
+  <update>f</update>
+ 
+  <!--
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+  -->
+  
+  <channel update="i" site="mewatch.sg" site_id="97072" xmltv_id="CNA">CNA</channel>
+  <channel update="i" site="aljazeera.com" site_id="aje" xmltv_id="AlJazeera English">AlJazeera English</channel>
+  <channel update="i" site="uk-sky.com" site_id="4604" xmltv_id="Euronews">Euronews</channel>
+  <channel update="i" site="m.tvguide.co.uk-index" site_id="683" xmltv_id="BBC1 HD">BBC1 HD</channel>
+  <channel update="i" site="m.tvguide.co.uk-index" site_id="387" xmltv_id="BBC2 HD">BBC2 HD</channel>
+  <channel update="i" site="m.tvguide.co.uk-index" site_id="476" xmltv_id="Channel 4 HD">Channel 4 HD</channel>
+  <channel update="i" site="m.tvguide.co.uk-index" site_id="148" xmltv_id="Channel 5">Channel 5</channel>
+  <channel update="i" site="m.tvguide.co.uk-index" site_id="642" xmltv_id="ITV HD">ITV HD</channel>
+  <channel update="i" site="m.tvguide.co.uk-index" site_id="671" xmltv_id="ITV2 HD">ITV2 HD</channel>
+  <channel update="i" site="telerama.fr.api" site_id="192" xmltv_id="TF1">TF1</channel>
+  <channel update="i" site="telerama.fr.api" site_id="4" xmltv_id="France 2">France 2</channel>
+  <channel update="i" site="telerama.fr.api" site_id="80" xmltv_id="France 3">France 3</channel>
+  <channel update="i" site="telerama.fr.api" site_id="78" xmltv_id="France 4">France 4</channel>
+  <channel update="i" site="telerama.fr.api" site_id="47" xmltv_id="France 5">France 5</channel>
+  <channel update="i" site="telerama.fr.api" site_id="34" xmltv_id="Canal+">Canal+</channel>
+  <channel update="i" site="telerama.fr.api" site_id="118" xmltv_id="M6">M6</channel>
+  <channel update="i" site="telerama.fr.api" site_id="145" xmltv_id="Paris Première">Paris Première</channel>
+  <channel update="i" site="telerama.fr.api" site_id="260" xmltv_id="Guyane la 1ère">Guyane la 1ère</channel>
+  <channel update="i" site="ustvgo.tv" site_id="5943" xmltv_id="CBS">CBS</channel>
+  <channel update="i" site="ustvgo.tv" site_id="5942" xmltv_id="ABC">ABC</channel>
+  <channel update="i" site="ustvgo.tv" site_id="6077" xmltv_id="NBC">NBC</channel>
+  <channel update="i" site="ustvgo.tv" site_id="5963" xmltv_id="FOX">FOX</channel>
+  <channel update="i" site="ustvgo.tv" site_id="5964" xmltv_id="PBS">PBS</channel>
+  <channel update="i" site="ustvgo.tv" site_id="410" xmltv_id="TBS Superstation (East)">TBS Superstation (East)</channel>
+  <channel update="i" site="ustvgo.tv" site_id="427" xmltv_id="Turner Network Television (East)">Turner Network Television (East)</channel>
+  <channel update="i" site="ustvgo.tv" site_id="432" xmltv_id="USA Network (East)">USA Network (East)</channel>
+  <channel update="i" site="ustvgo.tv" site_id="411" xmltv_id="HBO (East)">HBO (East)</channel>
+  <channel update="i" site="ustvgo.tv" site_id="1188" xmltv_id="HBO 2 (East)">HBO 2 (East)</channel>
+  <channel update="i" site="ustvgo.tv" site_id="429" xmltv_id="Cable News Network">Cable News Network</channel>
+  <channel update="i" site="skysports.com" site_id="1301" xmltv_id="Sky Sports Main Event">Sky Sports Main Event</channel>
+  <channel update="i" site="skysports.com" site_id="1303" xmltv_id="Sky Sports Premier League">Sky Sports Premier League</channel>
+  <channel update="i" site="skysports.com" site_id="3838" xmltv_id="Sky Sports Football">Sky Sports Football</channel>
+  <channel update="i" site="skysports.com" site_id="1302" xmltv_id="Sky Sports Cricket">Sky Sports Cricket</channel>
+  <channel update="i" site="skysports.com" site_id="1322" xmltv_id="Sky Sports Golf">Sky Sports Golf</channel>
+  <channel update="i" site="skysports.com" site_id="1354" xmltv_id="Sky Sports Racing">Sky Sports Racing</channel>
+  <channel update="i" site="skysports.com" site_id="1306" xmltv_id="Sky Sports F1">Sky Sports F1</channel>
+  <channel update="i" site="skysports.com" site_id="1333" xmltv_id="Sky Sports NFL">Sky Sports NFL</channel>
+  <channel update="i" site="skysports.com" site_id="3839" xmltv_id="Sky Sports Arena">Sky Sports Arena</channel>
+  <channel update="i" site="skysports.com" site_id="4091" xmltv_id="Sky Sports Mix">Sky Sports Mix</channel>
+  <channel update="i" site="ustvgo.tv" site_id="423" xmltv_id="ESPN">ESPN</channel>
+  <channel update="i" site="ustvgo.tv" site_id="435" xmltv_id="ESPN2">ESPN2</channel>
+</settings>

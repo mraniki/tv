@@ -1,0 +1,8 @@
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
+https://raw.githubusercontent.com/twoonethree/IPTV/5bc9d2498988037b0db7a3d9e81723647e662387/News.m3u
+https://raw.githubusercontent.com/LeBazarDeBryan/XTVZ_/ed0131394035abaf176a2daa8ef3c51b53b773be/IPTV/TNTenDirect.m3u
+https://raw.githubusercontent.com/iptv-org/iptv/7db1317457cade1863617fc371b7f6c15d2abfaf/streams/qa.m3u
+https://i.mjh.nz/SamsungTVPlus/us.m3u8
+https://i.mjh.nz/Plex/us.m3u8
+#https://list.iptvcat.com/my_list/s/3b4035e829b4eb0e3207b6fc50899a9e.m3u8
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/de.m3u

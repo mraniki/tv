@@ -1,0 +1,94 @@
+name: Make EPG 
+on:
+ # schedule:
+ # - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  epg:
+    name: Make EPG
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: 📥 Checkout the repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Create temp directory
+      run: |
+        mkdir -p temp
+        
+
+
+    # - name: Download & Install WebGrab+Plus & its config
+    #   run: |
+    #     wget http://webgrabplus.com/sites/default/files/download/SW/V3.2.0/WebGrabPlus_V3.2_install.tar.gz
+    #     tar -zxvf WebGrabPlus_V3.2_install.tar.gz
+    #     cd .wg++
+    #     ./install.sh
+    #     wget -N https://raw.githubusercontent.com/mraniki/tv/main/config/WebGrab++.config.xml 
+    #     ./run.sh
+
+    # - name: Extract Channel List
+    #   run: |
+    #     sudo apt install xmlstarlet
+    #     xmlstarlet sel -t -v "//channel/@xmltv_id" config/WebGrab++.config.xml > config/channels.txt
+
+    - name: Download manual EPG
+      run: |
+
+        mapfile -t urls < config/epg.txt
+        # Iterate over the URLs and download the XML files
+        for url in "${urls[@]}"; do
+          echo "Downloading from $url..."
+          wget -P temp "$url"
+        done
+
+    - name: xmltv install
+      run: |
+
+        sudo apt install xmltv
+
+    - name: Merge EPG
+      run: |
+
+        ls -l temp/*.xml
+        
+        # Get a list of downloaded XML files
+        xml_files=$(ls temp/*.xml)
+
+        # Iterate over the XML files 
+        for xml_file in $xml_files; do
+          if [ ! -f "guide.xml" ] || [ ! -s "guide.xml" ]; then
+            # Rename the first XML file to guide.xml
+            tv_sort --by-channel --output $xml_file $xml_file 
+            mv $xml_file guide.xml
+            continue
+          fi
+          echo "Sorting ..."
+          tv_sort --by-channel --output $xml_file $xml_file 
+          sleep 2
+          tv_merge -t -i guide.xml -m $xml_file	-o temp.xml
+          mv temp.xml guide.xml
+
+        done
+
+        # # Save the merged XML file as compressed tarball
+        # tar czf guide.tar.gz guide.xml
+        # rm guide.xml
+
+    - name: 🪪 Identify
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "${GITHUB_ACTOR}"
+
+    - name: Clean
+      run: |
+        rm -rf temp
+        git checkout --orphan latest_branch
+        git add -A
+        git commit -am "${{ steps.date.outputs.DATE }} - ${{ steps.quote.outputs.TITLE }}"
+        git branch -D main
+        git branch -m main
+        git push -f origin main

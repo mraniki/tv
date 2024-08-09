@@ -1,0 +1,11 @@
+version: 2
+updates:
+
+  # Maintain dependencies for poetry
+  - package-ecosystem: "pip"
+    directory: "/"
+    target-branch: "main"
+    schedule:
+      interval: "weekly"
+    commit-message:
+        prefix: "⬆️ 🤖 Dependencies"
