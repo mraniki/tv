@@ -1,0 +1,116 @@
+name: Update M3U
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: "0 0 * * *"
+
+
+jobs:
+  Update:
+    name: 📺 m3u update
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
+
+    steps:
+    - name: 📥 Checkout the repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: 🕓 GetTime
+      id: date
+      run: |
+        echo "DATE=$(date +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_OUTPUT
+        
+
+    - name: 🔮 Get a random quote
+      id: quote
+      run: |
+        sudo apt-get -y install fortune-mod
+        TITLE=$(fortune -s | tr -d '[:punct:]' | tr -d '[:digit:]' | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//' | head -n 1)
+
+        # Limit the TITLE to 256 characters
+        TITLE=${TITLE:0:256}
+        echo "TITLE=$TITLE" >> $GITHUB_OUTPUT
+
+    - name: Update
+      run: |
+        cp config/template.txt IPTV.m3u
+        echo "IPTV.m3u contents:"
+        cat IPTV.m3u
+
+        # Define the search terms
+        mapfile -t search_terms < config/search_terms.txt
+        # mapfile -t search_terms < <(grep 'tvg-name' template.txt | cut -d'"' -f4)
+
+        for search_term in "${search_terms[@]}"; do
+            # Control flag for each search term
+            found=0
+
+            # Define the URLs
+            mapfile -t urls < config/urls.txt
+            for url in "${urls[@]}"; do
+                if [ $found -eq 1 ]; then
+                    break
+                fi
+
+                if [[ $url == \#* ]]; then
+                    echo "Skipping commented out URL: $url"
+                    continue
+                fi
+                # Download the URLs
+                echo "Downloading from $url..."
+                wget --no-check-certificate "$url" -O input.txt
+
+                echo "Extracting URL for $search_term..."
+                new_url=$(awk "/$search_term/{getline; print; exit}" input.txt)
+
+                echo "Extracted URL: $new_url"
+                if [ -z "$new_url" ]; then
+                    echo "No New URL found"
+                else
+                    echo "URL extracted found: $new_url"
+                    echo ""
+                    echo "Replacing URL in file with: $new_url"
+                    awk -v new_url="$new_url" -v search_term="$search_term" '
+                        index($0, search_term) {
+                            print $0
+                            getline
+                            print new_url
+                            next
+                        }
+                        {print}
+                    ' IPTV.m3u > temp && mv temp IPTV.m3u
+
+                    echo "URL replaced in IPTV.m3u"
+                    echo "IPTV.m3u contents:"
+                    cat IPTV.m3u
+
+                    # Set the control flag to 1
+                    found=1
+                fi
+            done
+        done
+
+        rm input.txt
+        echo "Update completed."
+        echo "IPTV.m3u contents:"
+        cat IPTV.m3u
+
+    - name: 🪪 Identify
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "${GITHUB_ACTOR}"
+
+
+    - name: Clean
+      run: |
+        git checkout --orphan latest_branch
+        git add -A
+        git commit -am "${{ steps.date.outputs.DATE }} - ${{ steps.quote.outputs.TITLE }}"
+        git branch -D main
+        git branch -m main
+        git push -f origin main
